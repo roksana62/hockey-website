@@ -23,7 +23,7 @@
 <body>
     <header>
         <!-- nav section -->
-        <nav class="mx-32">
+        <nav class="mx-6 lg:mx-32">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -56,13 +56,39 @@
                   </ul>
                 </div>
                 <div class="navbar-end">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined hidden lg:inline">
                         search
                         </span> &nbsp;&nbsp;&nbsp;&nbsp;
                   <a class="btn btn-error text-white font-bold bg-[#FF4240]">Get Ticket</a>
                 </div>
               </div>
         </nav>
+        <!-- banner section -->
+        <section class="banner_section">
+            <div class="carousel mx-12 lg:mx-32 my-12 max-h-[550px] relative">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="/Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="/Images/bg.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+               
+                
+                </div>
+                <div class="bg-[#131318] p-8 rounded-2xl max-w-[520px] absolute lg:bottom-8 mx-10 lg:right-44">
+                    <h3 class="text-2xl font-extrabold mb-4 text-white">Meet all the heroes from the field</h3>
+                    <p class="font-medium max-w-[500px] text-[#FFFFFF63]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+              </div>
+        </section>
     </header>
     <main>
 
